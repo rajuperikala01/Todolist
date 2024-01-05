@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 255, 255, 0.123);
+    /* background: linear-gradient(to right, rgba(224, 217, 122, 0.849), rgba(255, 174, 0, 0.767)); */
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.select {
+    margin-left: 30px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.select:hover {
+    box-shadow : 0px 1px 3px black;
+}
+
+.select:focus {
+    border: 0.4px solid rgba(0, 0, 0, 0.342);
+
+}
+
+
+
+.input {
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    height: 25px;
+    font-size: 13px;
+    box-shadow: 0px 1px 1px black;
+    text-align: center;
+}
+
+.input:hover {
+    background-color:  rgb(255, 255, 255,0.7);;
+    box-shadow : 0px 1px 5px black;
+    transition: ease-out 100ms;
+}
+
+
+
+
+.btn {
+    background-color: rgba(255, 68, 0, 0.7);
+    border: none;
+    outline: none;
+    height: 27px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    box-shadow : 0px 1px 2px black;
+}
+
+.btn1:hover {
+    
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    box-shadow : 0px 1px 2px black;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+}
+.todo-list {
+    height: fit-content;
+    width: 380px;
+}
+.todo-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.todo:hover {
+    box-shadow: 0px 1px 1px black;
+}
+.todo {
+    background-color: #ffffffc9;
+    display: inline-flex;
+    min-width: 65%;
+    height: 25px;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+    width: fit-content;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.425);
+    border-left: 1px solid rgba(0, 0, 0, 0.425);;}
+.btn1 {
+    background-color: rgba(0, 255, 179,0.7);
+    height: 27px;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.App {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    min-height: 100vh;
+}
+.todo li {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
